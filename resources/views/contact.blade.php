@@ -29,8 +29,7 @@
                 <h3>Contacts</h3>
                 <ul>
                     @foreach ($contacts as $contact)
-                    <li>Email: {{ $contact->email }}</li>
-                    <li>Phone-number: {{ $contact->phone }}</li>
+                    <li>{{$contact}}</li>
                     @endforeach
                 </ul>
             </div>
