@@ -25,5 +25,9 @@ Route::get('/about', function(){
 })->name('about');
 
 Route::get('/contact', function(){
-    return view('contact');
+    $contacts = [
+        'email' => 'example@laravel.it',
+        'phone' => '123456789',
+    ];
+    return view('contact', $contacts);
 })->name('contact');

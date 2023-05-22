@@ -24,6 +24,17 @@
         </nav>
     </header>
     <main>
+        <div class="container">
+            <div class="row">
+                <h3>Contacts</h3>
+                <ul>
+                    @foreach ($contacts as $contact)
+                    <li>Email: {{ $contact->email }}</li>
+                    <li>Phone-number: {{ $contact->phone }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        </div>
     </main>
     <footer>
         <!-- place footer here -->
