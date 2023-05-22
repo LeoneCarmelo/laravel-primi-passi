@@ -21,7 +21,8 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function(){
-    return view('about');
+    $paragraph = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam unde excepturi sunt placeat laboriosam officiis soluta eum consequatur. Iusto explicabo repudiandae ratione.';
+    return view('about', compact('paragraph'));
 })->name('about');
 
 Route::get('/contact', function(){
@@ -29,5 +30,5 @@ Route::get('/contact', function(){
         'email' => 'example@laravel.it',
         'phone' => '123456789',
     ];
-    return view('contact');
-})->name('contact', ['contacts' => $contacts]);
+    return view('contact', ['contacts' => $contacts]);
+})->name('contact');

@@ -25,11 +25,10 @@
     </header>
     <main>
         <div class="container">
-            <div class="row">
-                <h3>Contacts</h3>
+            <div class="row text-center my-4 text-white">
                 <ul>
                     @foreach ($contacts as $contact)
-                    <li>{{$contact}}</li>
+                    <li class="mb-2">{{$contact}}</li>
                     @endforeach
                 </ul>
             </div>

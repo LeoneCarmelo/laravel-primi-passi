@@ -20,7 +20,8 @@
             <a href="/contact" class="mx-3">Contact</a>
         </nav>
     </header>
-    <main>
+    <main class="w-50 mx-auto text-white mt-5 text-center">
+        <p class="fs-4">{{ $paragraph}}</p>
     </main>
     <footer>
         <!-- place footer here -->

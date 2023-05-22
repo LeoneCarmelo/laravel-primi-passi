@@ -20,3 +20,7 @@ a {
 a:active {
     color: orangered;
 }
+
+ul {
+    list-style: none;
+}
