@@ -19,3 +19,11 @@ Route::get('/', function () {
     $contact = 'Contact';
     return view('home', compact('home', 'about', 'contact'));
 });
+
+Route::get('/about', function(){
+    return view('about');
+})->name('about');
+
+Route::get('/contact', function(){
+    return view('contact');
+})->name('contact');

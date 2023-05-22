@@ -14,13 +14,10 @@
 
 <body>
     <header>
-        <h1 class="text-center">Hello Laravel</h1>
+        <h1 class="text-center">About</h1>
         <nav class="nav justify-content-center">
-
-            <a href="">{{ $home }}</a>
-            <a href="/about" class="mx-3">{{ $about }}</a>
-            <a href="/contact">{{ $contact }}</a>
-
+            <a href="/">Home</a>
+            <a href="/contact" class="mx-3">Contact</a>
         </nav>
     </header>
     <main>
