@@ -9,15 +9,15 @@
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="/css/contact.css">
 </head>
 
 <body>
     <header>
-        <h1 class="text-center">Contact</h1>
+        <h1 class="text-center py-3">Contact</h1>
         <nav class="nav justify-content-center">
 
-            <a href="/">Home</a>
+            <a href="/" class="mx-3">Home</a>
             <a href="/about" class="mx-3">About</a>
 
 

@@ -1,0 +1,22 @@
+body {
+    background-image: url('../images/laravel-background.png');
+    background-size:cover;
+    background-position: 50% 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    color: goldenrod;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+a:active {
+    color: orangered;
+}
